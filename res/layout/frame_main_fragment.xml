@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aretha.slidemenu.SlideMenu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:slidemenu="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slideMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    slidemenu:primaryShadowWidth = "10dp" 
+    slidemenu:edgeSlide = "false"
+    slidemenu:edgeSlideWidth = "20dp"
+    slidemenu:isShowShadow = "false"
+    slidemenu:maxDuration = "300"
+    slidemenu:primaryMenuMoveScale="0.4"
+    slidemenu:isCanScrollMenu = "true"
+    slidemenu:handleKeyback="false"/>
